@@ -1,0 +1,6 @@
+Init_PR	0.5
+Alpha	1
+Iter	100
+Epsilon	0.0001
+Thresh_CT	3
+Weighted	1
