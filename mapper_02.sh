@@ -1,5 +1,7 @@
 #!/bin/bash
-## lipiji@baidu.com
+# Piji Li
+# lipiji.sdu@gmail.com
+# http://www.zhizhihu.com
 
 ## Input: vi \t pr_i \t vj-wij,vj-wij,vj-wij....
 ## Output: vj, vi, pr_i/n

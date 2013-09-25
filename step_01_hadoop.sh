@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Step01: prepare data
-# lipiji@baidu.com
+# Piji Li
+# lipiji.sdu@gmail.com
+# http://www.zhizhihu.com
 
 u=$2;
 

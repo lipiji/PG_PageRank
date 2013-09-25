@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Step02: compute PR
-# lipiji@baidu.com
+# Piji Li
+# lipiji.sdu@gmail.com
+# http://www.zhizhihu.com
 
 i=$1;
 u=$2;

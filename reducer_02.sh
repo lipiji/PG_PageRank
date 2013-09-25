@@ -1,5 +1,7 @@
 #!/bin/bash
-## lipiji@baidu.com
+# Piji Li
+# lipiji.sdu@gmail.com
+# http://www.zhizhihu.com
 
 ## Input: vi, vj, pr_j/C_j
 ## Outpot: vi, new_pr, vj,vj,vj...., where vi -> vj

@@ -1,5 +1,7 @@
 #!/bin/bash
-## lipiji@baidu.com
+# Piji Li
+# lipiji.sdu@gmail.com
+# http://www.zhizhihu.com
 
 awk 'BEGIN{
 	OFS = "\t"; ORS = "\n";

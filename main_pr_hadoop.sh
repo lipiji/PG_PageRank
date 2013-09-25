@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # main file to compute PR via Hadoop
-# lipiji@baidu.com
+# Piji Li
+# lipiji.sdu@gmail.com
+# http://www.zhizhihu.com
 #
 # PR_i = (1-Alpha)/N + Alpha * SUM( PR_j / C_j )
 # where j->i, C_j=Out(j)
