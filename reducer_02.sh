@@ -1,6 +1,6 @@
 #!/bin/bash
 # Piji Li
-# lipiji.sdu@gmail.com
+# lipiji.pz@gmail.com
 # http://www.zhizhihu.com
 
 ## Input: vi, vj, pr_j/C_j

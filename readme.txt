@@ -1,6 +1,6 @@
 # Pagerank (MapReduce)
 # Piji Li
-# lipiji.sdu@gmail.com
+# lipiji.pz@gmail.com
 # http://www.zhizhihu.com
 
 # run main_pr_hadoop.sh

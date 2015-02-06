@@ -2,7 +2,7 @@
 
 # Step01: prepare data
 # Piji Li
-# lipiji.sdu@gmail.com
+# lipiji.pz@gmail.com
 # http://www.zhizhihu.com
 
 u=$2;

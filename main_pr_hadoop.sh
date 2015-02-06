@@ -2,7 +2,7 @@
 
 # main file to compute PR via Hadoop
 # Piji Li
-# lipiji.sdu@gmail.com
+# lipiji.pz@gmail.com
 # http://www.zhizhihu.com
 #
 # PR_i = (1-Alpha)/N + Alpha * SUM( PR_j / C_j )
@@ -10,8 +10,7 @@
 #
 # Both for directed and undirected graph
 # 
-echo -e "Start..." > run.log;
-
+echo -e "Start..."; #> run.log;
 
 
 u="Piji";
@@ -63,13 +62,13 @@ for((i=1;i<="$iter";i++))
 	if [ $(echo "$i >= 2"|bc) -eq 1 ];then
 		
 		echo -e "Iteration "$i"th, error="$error_i", time="$differ_in"s";
-		echo -e "Iteration "$i"th, error="$error_i", time="$differ_in"s" >> run.log;
+        #echo -e "Iteration "$i"th, error="$error_i", time="$differ_in"s" >> run.log;
 		if [ $(echo "$error_i <= $Epsilon"|bc) -eq 1 ];then
 			Convergence_times=$(($Convergence_times+1));
 		fi
 		if [ "$Convergence_times" -eq "$Thresh_CT" ];then
 			echo -e "Iteration exit, i="$i", error="$error_i;
-			echo -e "Iteration exit, i="$i", error="$error_i >> run.log;
+            #echo -e "Iteration exit, i="$i", error="$error_i >> run.log;
 			break;
 		fi
 	fi
@@ -83,6 +82,6 @@ for((i=1;i<="$iter";i++))
 etime_out=`date +%s`
 differ_out=$(($etime_out-$stime_out))
 echo -e "Time cost: "$differ_out"s in total."
-echo -e "Time cost: "$differ_out"s in total." >> run.log
+#echo -e "Time cost: "$differ_out"s in total." >> run.log
 rm $result".old"
 

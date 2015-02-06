@@ -1,6 +1,6 @@
 #!/bin/bash
 # Piji Li
-# lipiji.sdu@gmail.com
+# lipiji.pz@gmail.com
 # http://www.zhizhihu.com
 
 ## output: vi, vj where vi->vj.
